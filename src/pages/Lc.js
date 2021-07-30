@@ -152,14 +152,14 @@ const Lc = () => {
       <h1>Lc</h1>
       <div className="cont">
         <h2>
-          <label>Auto</label>
+          <label id="auto">Auto</label>
         </h2>
       </div>
       <div className="cont">
         <label>Amara Raja Batteries Ltd.</label>
         <span class="material-icons-outlined">
           <button className={changetickcolor1} onClick={disableinput1}>
-            <img src={done} alt="React Logo" />
+            {change1 && <img src={done} alt="React Logo" />}
           </button>
         </span>
         {change1 && (
@@ -174,7 +174,7 @@ const Lc = () => {
         <label>Auto Pins (India) Ltd.</label>
         <span class="material-icons-outlined">
           <button className={changetickcolor2} onClick={disableinput2}>
-            <img src={done} alt="React Logo" />
+            {change2 && <img src={done} alt="React Logo" />}
           </button>
         </span>
         {change2 && (
@@ -189,7 +189,7 @@ const Lc = () => {
         <label>Automobile Corporation of Goa Ltd.</label>
         <span class="material-icons-outlined">
           <button className={changetickcolor3} onClick={disableinput3}>
-            <img src={done} alt="React Logo" />
+            {change3 && <img src={done} alt="React Logo" />}
           </button>
         </span>
         {change3 && (
@@ -205,14 +205,14 @@ const Lc = () => {
       {/* ///////////////////////// */}
       <div className="cont">
         <h2>
-          <label>Banking</label>
+          <label id="banking">Banking</label>
         </h2>
       </div>
       <div className="cont">
         <label>Indian Bank</label>
         <span class="material-icons-outlined">
           <button className={changetickcolor4} onClick={disableinput4}>
-            <img src={done} alt="React Logo" />
+            {change4 && <img src={done} alt="React Logo" />}
           </button>
         </span>
         {change4 && (
@@ -227,7 +227,7 @@ const Lc = () => {
         <label>Indian Overseas Bank</label>
         <span class="material-icons-outlined">
           <button className={changetickcolor5} onClick={disableinput5}>
-            <img src={done} alt="React Logo" />
+            {change5 && <img src={done} alt="React Logo" />}
           </button>
         </span>
         {change5 && (
@@ -242,7 +242,7 @@ const Lc = () => {
         <label>IndusInd Bank Ltd.</label>
         <span class="material-icons-outlined">
           <button className={changetickcolor6} onClick={disableinput6}>
-            <img src={done} alt="React Logo" />
+            {change6 && <img src={done} alt="React Logo" />}
           </button>
         </span>
         {change6 && (
@@ -258,14 +258,14 @@ const Lc = () => {
       {/* ///////////////////////// */}
       <div className="cont">
         <h2>
-          <label>Pharma</label>
+          <label id="pharma">Pharma</label>
         </h2>
       </div>
       <div className="cont">
         <label>ABL Biotechnologies Ltd.</label>
         <span class="material-icons-outlined">
           <button className={changetickcolor7} onClick={disableinput7}>
-            <img src={done} alt="React Logo" />
+            {change7 && <img src={done} alt="React Logo" />}
           </button>
         </span>
         {change7 && (
@@ -280,7 +280,7 @@ const Lc = () => {
         <label>Aayush Food & Herbs Ltd.</label>
         <span class="material-icons-outlined">
           <button className={changetickcolor8} onClick={disableinput8}>
-            <img src={done} alt="React Logo" />
+            {change8 && <img src={done} alt="React Logo" />}
           </button>
         </span>
         {change8 && (
@@ -295,7 +295,7 @@ const Lc = () => {
         <label>Aarti Drugs Ltd.</label>
         <span class="material-icons-outlined">
           <button className={changetickcolor9} onClick={disableinput9}>
-            <img src={done} alt="React Logo" />
+            {change9 && <img src={done} alt="React Logo" />}
           </button>
         </span>
         {change9 && (
@@ -311,14 +311,14 @@ const Lc = () => {
       {/* ///////////////////////// */}
       <div className="cont">
         <h2>
-          <label>Oil</label>
+          <label id="oil">Oil</label>
         </h2>
       </div>
       <div className="cont">
         <label>Aban Offshore Ltd.</label>
         <span class="material-icons-outlined">
           <button className={changetickcolor10} onClick={disableinput10}>
-            <img src={done} alt="React Logo" />
+            {change10 && <img src={done} alt="React Logo" />}
           </button>
         </span>
         {change10 && (
@@ -333,7 +333,7 @@ const Lc = () => {
         <label>Asian Energy Services Ltd.</label>
         <span class="material-icons-outlined">
           <button className={changetickcolor11} onClick={disableinput11}>
-            <img src={done} alt="React Logo" />
+            {change11 && <img src={done} alt="React Logo" />}
           </button>
         </span>
         {change11 && (
@@ -348,7 +348,7 @@ const Lc = () => {
         <label>Assam Petrochemicals Ltd.</label>
         <span class="material-icons-outlined">
           <button className={changetickcolor12} onClick={disableinput12}>
-            <img src={done} alt="React Logo" />
+            {change11 && <img src={done} alt="React Logo" />}
           </button>
         </span>
         {change12 && (

@@ -27,7 +27,7 @@ const Equity = () => {
           //  onBlur={housingfun}
         />
         <label>(in Rs)</label>
-        <Buttontick />
+        {/* <Buttontick /> */}
       </div>
 
       <div className="cont">
@@ -56,15 +56,21 @@ const Equity = () => {
           </Dropdown.Toggle>
 
           <Dropdown.Menu>
-            <NavLink to="/Lc">
-              <Dropdown.Item href="/Lc">LC</Dropdown.Item>
-            </NavLink>
-            <NavLink to="/Mc">
-              <Dropdown.Item href="/Mc">Mc</Dropdown.Item>
-            </NavLink>
-            <NavLink to="/Sc">
-              <Dropdown.Item href="/Sc">Sc</Dropdown.Item>
-            </NavLink>
+            <a to="/Lc">
+              <Dropdown.Item href="/Lc#auto" target="_blank">
+                LC
+              </Dropdown.Item>
+            </a>
+            <a to="/Mc">
+              <Dropdown.Item href="/Mc#auto" target="_blank">
+                Mc
+              </Dropdown.Item>
+            </a>
+            <a to="/Sc">
+              <Dropdown.Item href="/Sc#auto" target="_blank">
+                Sc
+              </Dropdown.Item>
+            </a>
           </Dropdown.Menu>
         </Dropdown>
         <Dropdown className="dropmargin">
@@ -73,9 +79,15 @@ const Equity = () => {
           </Dropdown.Toggle>
 
           <Dropdown.Menu>
-            <Dropdown.Item href="#banklc">LC</Dropdown.Item>
-            <Dropdown.Item href="#bankmc">MC</Dropdown.Item>
-            <Dropdown.Item href="#banksc">SC</Dropdown.Item>
+            <Dropdown.Item href="/Lc#banking" target="_blank">
+              LC
+            </Dropdown.Item>
+            <Dropdown.Item href="/Mc#banking" target="_blank">
+              MC
+            </Dropdown.Item>
+            <Dropdown.Item href="/Sc#banking" target="_blank">
+              SC
+            </Dropdown.Item>
           </Dropdown.Menu>
         </Dropdown>
         <Dropdown className="dropmargin">
@@ -84,9 +96,15 @@ const Equity = () => {
           </Dropdown.Toggle>
 
           <Dropdown.Menu>
-            <Dropdown.Item href="#pharmalc">LC</Dropdown.Item>
-            <Dropdown.Item href="#pharmamc">MC</Dropdown.Item>
-            <Dropdown.Item href="#parmasc">SC</Dropdown.Item>
+            <Dropdown.Item href="/Lc#pharma" target="_blank">
+              LC
+            </Dropdown.Item>
+            <Dropdown.Item href="/Mc#pharma" target="_blank">
+              MC
+            </Dropdown.Item>
+            <Dropdown.Item href="/Sc#pharma" target="_blank">
+              SC
+            </Dropdown.Item>
           </Dropdown.Menu>
         </Dropdown>
         <Dropdown className="dropmargin">
@@ -95,9 +113,15 @@ const Equity = () => {
           </Dropdown.Toggle>
 
           <Dropdown.Menu>
-            <Dropdown.Item href="#itlc">LC</Dropdown.Item>
-            <Dropdown.Item href="#itmc">MC</Dropdown.Item>
-            <Dropdown.Item href="#itsc">SC</Dropdown.Item>
+            <Dropdown.Item href="/Lc#it" target="_blank">
+              LC
+            </Dropdown.Item>
+            <Dropdown.Item href="/Mc#it" target="_blank">
+              MC
+            </Dropdown.Item>
+            <Dropdown.Item href="/Sc#it" target="_blank">
+              SC
+            </Dropdown.Item>
           </Dropdown.Menu>
         </Dropdown>
         <Dropdown className="dropmargin">
@@ -117,9 +141,15 @@ const Equity = () => {
           </Dropdown.Toggle>
 
           <Dropdown.Menu>
-            <Dropdown.Item href="#oillc">LC</Dropdown.Item>
-            <Dropdown.Item href="#oilmc">MC</Dropdown.Item>
-            <Dropdown.Item href="#oilsc">SC</Dropdown.Item>
+            <Dropdown.Item href="/Lc#oil" target="_blank">
+              LC
+            </Dropdown.Item>
+            <Dropdown.Item href="/Mc#oil" target="_blank">
+              MC
+            </Dropdown.Item>
+            <Dropdown.Item href="/Sc#oil" target="_blank">
+              SC
+            </Dropdown.Item>
           </Dropdown.Menu>
         </Dropdown>
         <Dropdown className="dropmargin">
