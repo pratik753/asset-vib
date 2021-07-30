@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/assist-vib/static/css/main.5cf991f8.chunk.css",
-    "main.js": "/assist-vib/static/js/main.85fff54a.chunk.js",
-    "main.js.map": "/assist-vib/static/js/main.85fff54a.chunk.js.map",
+    "main.js": "/assist-vib/static/js/main.048c2dea.chunk.js",
+    "main.js.map": "/assist-vib/static/js/main.048c2dea.chunk.js.map",
     "runtime-main.js": "/assist-vib/static/js/runtime-main.240ce641.js",
     "runtime-main.js.map": "/assist-vib/static/js/runtime-main.240ce641.js.map",
     "static/js/2.1481eb08.chunk.js": "/assist-vib/static/js/2.1481eb08.chunk.js",
@@ -19,6 +19,6 @@
     "static/js/runtime-main.240ce641.js",
     "static/js/2.1481eb08.chunk.js",
     "static/css/main.5cf991f8.chunk.css",
-    "static/js/main.85fff54a.chunk.js"
+    "static/js/main.048c2dea.chunk.js"
   ]
 }
