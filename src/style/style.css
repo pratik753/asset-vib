@@ -1,0 +1,138 @@
+.cont {
+    margin: 2rem;
+    display: flex;
+    align-items: normal;
+    justify-content: flex-start;
+}
+
+.maintable table {
+    padding: 1rem;
+    /* border: .5rem solid #cac2d7; */
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.25);
+    border-radius: 14px;
+    background-color: #bfe0ed;
+    height: 13rem;
+}
+
+.linecss {
+    background: aliceblue;
+    border: 1px solid black;
+    width: 100
+}
+
+.dropmargin {
+    margin-right: 1rem;
+}
+
+.bgcolorgry {
+    background-color: #959797;
+    width: 4rem;
+    height: 3rem;
+    border-radius: 1rem;
+}
+
+.bgcolorgreen {
+    background-color: #5aed78;
+    width: 4rem;
+    height: 3rem;
+    border-radius: 1rem;
+}
+
+
+/* 
+#imglogo {
+    width: 18rem;
+} */
+
+.userdark {
+    background-color: black;
+}
+
+.userlight {
+    background: rgb(255, 255, 255);
+}
+
+.maintable td {
+    font-size: 1rem;
+}
+
+.rapinCont {
+    display: flex;
+    justify-content: center;
+    margin: .5rem;
+}
+
+.control {
+    margin-bottom: 0.5rem;
+}
+
+label {
+    font-weight: bold;
+    display: block;
+    margin: 1rem;
+    /* margin-bottom: 0.5rem; */
+}
+
+.head label {
+    font-weight: bold;
+    display: block;
+    margin: .5rem;
+    font-size: 2rem;
+    /* margin-bottom: 0.5rem; */
+}
+
+input,
+textarea {
+    margin: 1rem;
+    font: inherit;
+    padding: 0.35rem;
+    border-radius: 14px;
+    background-color: #f0f0f0;
+    border: 1px solid #c1d1d1;
+    display: block;
+    /* width: 40%; */
+    font-size: 1.25rem;
+    margin: .5rem;
+}
+
+input:focus,
+textarea:focus {
+    background-color: #cbf8f8;
+    outline-color: teal;
+}
+
+.actions {
+    text-align: right;
+}
+
+button {
+    font-size: 1.25rem;
+}
+
+.tick {
+    background-color: #59dc1d;
+    border-radius: 1rem;
+    margin: .5rem;
+    border: 4px solid aliceblue;
+    box-shadow: 0 2px 29px rgba(0, 0, 0, .5);
+}
+
+.redcolor {
+    background-color: #e77e7e;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+@media (max-width:850px) {
+    input {
+        width: 95%;
+    }
+    a {
+        font-size: 1rem;
+    }
+}
