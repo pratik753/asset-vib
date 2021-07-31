@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/assist-vib/static/css/main.5cf991f8.chunk.css",
-    "main.js": "/assist-vib/static/js/main.f1f30aff.chunk.js",
-    "main.js.map": "/assist-vib/static/js/main.f1f30aff.chunk.js.map",
-    "runtime-main.js": "/assist-vib/static/js/runtime-main.240ce641.js",
-    "runtime-main.js.map": "/assist-vib/static/js/runtime-main.240ce641.js.map",
-    "static/js/2.29a42955.chunk.js": "/assist-vib/static/js/2.29a42955.chunk.js",
-    "static/js/2.29a42955.chunk.js.map": "/assist-vib/static/js/2.29a42955.chunk.js.map",
-    "static/js/3.0cfb2daf.chunk.js": "/assist-vib/static/js/3.0cfb2daf.chunk.js",
-    "static/js/3.0cfb2daf.chunk.js.map": "/assist-vib/static/js/3.0cfb2daf.chunk.js.map",
-    "index.html": "/assist-vib/index.html",
-    "static/css/main.5cf991f8.chunk.css.map": "/assist-vib/static/css/main.5cf991f8.chunk.css.map",
-    "static/js/2.29a42955.chunk.js.LICENSE.txt": "/assist-vib/static/js/2.29a42955.chunk.js.LICENSE.txt",
-    "static/media/done_black_24dp.6a318b8d.svg": "/assist-vib/static/media/done_black_24dp.6a318b8d.svg",
-    "static/media/main.5284bb6d.png": "/assist-vib/static/media/main.5284bb6d.png"
+    "main.css": "/asset-vib/static/css/main.5cf991f8.chunk.css",
+    "main.js": "/asset-vib/static/js/main.f1f30aff.chunk.js",
+    "main.js.map": "/asset-vib/static/js/main.f1f30aff.chunk.js.map",
+    "runtime-main.js": "/asset-vib/static/js/runtime-main.c0a448d1.js",
+    "runtime-main.js.map": "/asset-vib/static/js/runtime-main.c0a448d1.js.map",
+    "static/js/2.29a42955.chunk.js": "/asset-vib/static/js/2.29a42955.chunk.js",
+    "static/js/2.29a42955.chunk.js.map": "/asset-vib/static/js/2.29a42955.chunk.js.map",
+    "static/js/3.0cfb2daf.chunk.js": "/asset-vib/static/js/3.0cfb2daf.chunk.js",
+    "static/js/3.0cfb2daf.chunk.js.map": "/asset-vib/static/js/3.0cfb2daf.chunk.js.map",
+    "index.html": "/asset-vib/index.html",
+    "static/css/main.5cf991f8.chunk.css.map": "/asset-vib/static/css/main.5cf991f8.chunk.css.map",
+    "static/js/2.29a42955.chunk.js.LICENSE.txt": "/asset-vib/static/js/2.29a42955.chunk.js.LICENSE.txt",
+    "static/media/done_black_24dp.6a318b8d.svg": "/asset-vib/static/media/done_black_24dp.6a318b8d.svg",
+    "static/media/main.5284bb6d.png": "/asset-vib/static/media/main.5284bb6d.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.240ce641.js",
+    "static/js/runtime-main.c0a448d1.js",
     "static/js/2.29a42955.chunk.js",
     "static/css/main.5cf991f8.chunk.css",
     "static/js/main.f1f30aff.chunk.js"
